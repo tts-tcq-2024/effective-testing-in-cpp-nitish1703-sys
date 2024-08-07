@@ -14,12 +14,12 @@ std::string size(int cms) {
 }
 
 void testTshirtSizes(){
-    assert(size(35) == "S");
+    assert(size(32) == "S");
     assert(size(37) == "S");
-    assert(size(39) == "M");
+    assert(size(38) == "M");
     assert(size(41) == "M");
-    assert(size(43) == "L");
-    assert(size(45) == "L");
+    assert(size(42) == "L");
+    assert(size(44) == "L");
     assert(size(0) == "Invalid size");
 }
 
